@@ -21,7 +21,12 @@ import seedu.address.commons.util.ToStringBuilder;
 import seedu.address.logic.Messages;
 import seedu.address.logic.commands.exceptions.CommandException;
 import seedu.address.model.Model;
-import seedu.address.model.person.*;
+import seedu.address.model.person.Address;
+import seedu.address.model.person.Email;
+import seedu.address.model.person.Name;
+import seedu.address.model.person.Person;
+import seedu.address.model.person.Phone;
+import seedu.address.model.person.Remark;
 import seedu.address.model.tag.Tag;
 
 /**
@@ -190,7 +195,9 @@ public class EditCommand extends Command {
             return Optional.ofNullable(address);
         }
 
-        public Optional<Remark> getRemark() {return Optional.ofNullable(remark); }
+        public Optional<Remark> getRemark() {
+            return Optional.ofNullable(remark);
+        }
 
         /**
          * Sets {@code tags} to this object's {@code tags}.
