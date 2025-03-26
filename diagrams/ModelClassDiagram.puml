@@ -19,6 +19,9 @@ Class Email
 Class Name
 Class Phone
 Class Tag
+Class Course
+Class PreviousCourse
+Class Friendship
 
 Class I #FFFFFF
 }
@@ -42,6 +45,9 @@ Person *--> Phone
 Person *--> Email
 Person *--> Address
 Person *--> "*" Tag
+Person *--> "*" Course
+Person *--> "*" PreviousCourse
+Person *--> Friendship
 
 Person -[hidden]up--> I
 UniquePersonList -[hidden]right-> I
