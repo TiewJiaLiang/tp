@@ -11,6 +11,7 @@ package "Parser Classes" as ParserClasses{
 Class XYZCommand
 Class CommandResult
 Class "{abstract}\nCommand" as Command
+Class AutoUpdatePerson
 
 
 Class "<<interface>>\nLogic" as Logic
@@ -39,9 +40,12 @@ LogicManager --> Storage
 Storage --[hidden] Model
 Command .[hidden]up.> Storage
 Command .right.> Model
-note right of XYZCommand: XYZCommand = AddCommand, \nFindCommand, etc
+note right of XYZCommand: XYZCommand = AddCommand, \nFindCommand, DeleteCommand etc
 
 Logic ..> CommandResult
 LogicManager .down.> CommandResult
 Command .up.> CommandResult : <<create>>
+
+LogicManager ..> AutoUpdatePerson : <<call>>
+AutoUpdatePerson .right.> Model
 @enduml
