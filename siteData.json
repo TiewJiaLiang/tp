@@ -109,7 +109,6 @@
     },
     {
       "src": "UserGuide.md",
-      "title": "User Guide",
       "headings": {
         "nusmeet-user-guide": "NUSMeet User Guide",
         "quick-start": "🛠️ Quick start",
