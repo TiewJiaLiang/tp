@@ -12,6 +12,7 @@ Class XYZCommand
 Class CommandResult
 Class "{abstract}\nCommand" as Command
 Class AutoUpdatePerson
+Class PersonCoursesComparator
 
 
 Class "<<interface>>\nLogic" as Logic
@@ -48,4 +49,7 @@ Command .up.> CommandResult : <<create>>
 
 LogicManager ..> AutoUpdatePerson : <<call>>
 AutoUpdatePerson .right.> Model
+
+LogicManager ..> PersonCoursesComparator : <<call>>
+PersonCoursesComparator  .right.> Model
 @enduml
