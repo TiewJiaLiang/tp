@@ -112,6 +112,7 @@
       "headings": {
         "nusmeet-user-guide": "NUSMeet User Guide",
         "quick-start": "🛠️ Quick start",
+        "ui-overview": "💻 UI Overview",
         "command-overview": "⌨️ Command Overview",
         "features": "🚀 Features",
         "1-viewing-help-help": "1. Viewing help : help",
@@ -125,6 +126,13 @@
         "9-saving-your-data": "9. Saving your data",
         "10-editing-the-data-file": "10. Editing the data file",
         "11-automatic-courses-archival": "11. Automatic Courses Archival",
+        "12-features-coming-soon": "12. Features Coming Soon!",
+        "tips": "📌 Tips",
+        "1-personalize-your-tags": "1. Personalize Your Tags",
+        "2-keep-your-contact-book-updated": "2. Keep your Contact Book updated",
+        "3-be-specific-and-amp-detailed": "3. Be Specific &amp; Detailed",
+        "4-ensure-accuracy": "4. Ensure Accuracy",
+        "5-utilize-search-function": "5. Utilize Search function",
         "faq": "📝 FAQ",
         "known-issues": "❗Known issues",
         "glossary": "📖 Glossary"
