@@ -41,7 +41,7 @@
       "src": "DeveloperGuide.md",
       "title": "Developer Guide",
       "headings": {
-        "ab-3-developer-guide": "AB-3 Developer Guide",
+        "nusmeet-developer-guide": "NUSMeet Developer Guide",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -61,7 +61,7 @@
         "use-cases": "Use cases",
         "use-case-uc01-add-schoolmate": "Use case: UC01 – Add Schoolmate",
         "use-case-uc02-tag-schoolmates-with-course": "Use case: UC02 – Tag schoolmates with course",
-        "use-case-uc03-find-schoolmates-by-module": "Use case: UC03 – Find schoolmates by Module",
+        "use-case-uc03-find-schoolmates-by-course": "Use case: UC03 – Find schoolmates by course",
         "non-functional-requirements": "Non-Functional Requirements",
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
@@ -143,7 +143,7 @@
       "src": "index.md",
       "title": "",
       "headings": {
-        "addressbook-level-3": "AddressBook Level-3"
+        "nusmeet": "NUSMeet"
       },
       "headingKeywords": {}
     },
