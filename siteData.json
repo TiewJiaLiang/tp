@@ -42,6 +42,7 @@
       "title": "Developer Guide",
       "headings": {
         "nusmeet-developer-guide": "NUSMeet Developer Guide",
+        "table-of-contents": "Table of Contents",
         "acknowledgements": "Acknowledgements",
         "setting-up-getting-started": "Setting up, getting started",
         "design": "Design",
@@ -52,22 +53,25 @@
         "storage-component": "Storage component",
         "common-classes": "Common classes",
         "implementation": "Implementation",
+        "automatic-courses-archival": "Automatic Courses Archival",
         "proposed-undo-redo-feature": "[Proposed] Undo/redo feature",
-        "proposed-data-archiving": "[Proposed] Data archiving",
         "documentation-logging-testing-configuration-dev-ops": "Documentation, logging, testing, configuration, dev-ops",
         "appendix-requirements": "Appendix: Requirements",
         "product-scope": "Product scope",
         "user-stories": "User stories",
         "use-cases": "Use cases",
         "use-case-uc01-add-schoolmate": "Use case: UC01 – Add Schoolmate",
-        "use-case-uc02-tag-schoolmates-with-course": "Use case: UC02 – Tag schoolmates with course",
-        "use-case-uc03-find-schoolmates-by-course": "Use case: UC03 – Find schoolmates by course",
+        "use-case-uc02-list-all-schoolmates": "Use case: UC02 – List all Schoolmates",
+        "use-case-uc03-find-schoolmates-by-course": "Use case: UC03 – Find Schoolmates by Course",
+        "use-case-uc04-edit-a-schoolmate": "Use case: UC04 - Edit a Schoolmate",
+        "use-case-uc05-delete-a-schoolmate": "Use case: UC05 - Delete a Schoolmate",
         "non-functional-requirements": "Non-Functional Requirements",
         "glossary": "Glossary",
         "appendix-instructions-for-manual-testing": "Appendix: Instructions for manual testing",
         "launch-and-shutdown": "Launch and shutdown",
         "deleting-a-person": "Deleting a person",
-        "saving-data": "Saving data"
+        "saving-data": "Saving data",
+        "appendix-planned-enhancements": "Appendix: Planned Enhancements"
       },
       "headingKeywords": {}
     },
@@ -110,6 +114,7 @@
     {
       "src": "UserGuide.md",
       "headings": {
+        "table-of-contents": "Table of Contents",
         "nusmeet-user-guide": "NUSMeet User Guide",
         "quick-start": "🛠️ Quick start",
         "ui-overview": "💻 UI Overview",
