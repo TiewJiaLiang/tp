@@ -12,13 +12,13 @@ UniqueTagList -[hidden]down- UniquePersonList
 UniqueTagList -right-> "*" Tag
 UniquePersonList -right-> Person
 
-Person -up-> "0..*" Tag
+Person -up-> "*" Tag
 
 Person *--> "1" Name
 Person *--> "1" Phone
 Person *--> "1" Email
 Person *--> "1" Address
-Person *--> "0..*" Course
-Person *--> "0..*" PreviousCourse
-Person *--> Friendship
+Person *--> "*" Course
+Person *--> "*" PreviousCourse
+Person *--> "1" Friendship
 @enduml
